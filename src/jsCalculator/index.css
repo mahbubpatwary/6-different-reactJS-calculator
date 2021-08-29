@@ -1,0 +1,54 @@
+
+
+
+
+.simple_cal{
+float: left;
+width: 320px;   
+    text-align: center;
+    border: 5px solid #101116;
+    background : #101116;
+    border-radius: 5px;
+    
+
+
+}
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto)
+
+
+}
+.input1{
+    height: 75px;
+    width: 245px;
+    text-align: right;
+    background-color: #101116;
+    border: 0px;
+    margin-left: 0;
+    color: antiquewhite;
+
+}
+#clear{
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+
+.button1{
+margin: 5px;
+border-radius: 5px;
+background-color: #262834;
+color: snow;
+border: none;
+}
+
+#equal{
+    grid-column: 3/5;
+}
+
+
+
+
+

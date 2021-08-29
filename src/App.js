@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
+import JsCalculator from './jsCalculator/JsCalculator';
+
+import UseStateCal from './UseStateCal/UseStateCal';
+
+import ReducerCalculator from './reducerCalculator/ReducerCalculator';
+
+import ContexCal from './contexAPI_calculator/ContexCal';
+
+import ReduxCal from './Redux_cal/ReduxCal';
+import TypescriptCal from './typescriptCalculator/TypescriptCal';
+
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h2 className='text-center '>six different reactJS calculator</h2>
+      <hr /><br /><br />
+      <div className="row d-flex">
+        <JsCalculator></JsCalculator>
+
+
+        <UseStateCal></UseStateCal>
+
+      </div>
+      <div className="row">
+        <ReducerCalculator></ReducerCalculator>
+
+        <ContexCal></ContexCal>
+
+      </div>
+
+      <div className="row">
+        <ReduxCal></ReduxCal>
+      <TypescriptCal></TypescriptCal>
+      </div>
+
+
+
+
     </div>
   );
 }

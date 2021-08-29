@@ -1,0 +1,65 @@
+.reducer_cal{
+    margin-top: 50px;
+    height: 380px;
+    width: 300px;
+    background-color: black;
+    padding: 15px;
+    color : #fff;
+}
+.reducerInput{
+    width: 100%;
+    height: 50px;
+    background-color: silver;
+    text-align: right;
+    padding: 5px;
+
+}
+
+
+.buttn{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttons{
+justify-content: space-around;
+
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-gap: 5px;
+
+}
+
+
+
+
+
+.AC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+    height: 75%;
+    
+}
+.plus{
+    grid-row: 4/6;
+    grid-column: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

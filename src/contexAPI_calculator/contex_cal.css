@@ -1,0 +1,25 @@
+.contex_cal{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.keys{
+   
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: auto, auto, auto, auto; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+
+}
+.key{
+ height: 45px;
+ width: 50px;
+}

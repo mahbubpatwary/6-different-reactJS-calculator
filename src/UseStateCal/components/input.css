@@ -1,0 +1,12 @@
+.stateCal_input{
+    display: flex;
+    height: 4em;
+    flex: 1;
+    background-color: #000;
+    outline: #888;
+    color: #fff;
+    justify-content: flex-end;
+    padding: 1em;
+    font-weight: bold;
+    align-items: center;
+}
